@@ -1,0 +1,76 @@
+/*color and fonts*/
+div {
+    background:  rgb(198, 197, 197);
+    border: 2px solid rgba(0,0,0,0.1);
+    margin: 50px;
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+h2 {
+    color: red;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+body {
+    background-color: rgb(198, 197, 197);
+}
+h1{
+    color: Red;
+    font family: helvetica;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+body{
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font family: times;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+   color: red;
+   font-family: helvetica, sans serif;
+   text-transform: uppercase;
+}
+a:hover{
+   color:white;
+}
+
+p{
+   text-justify: center; 
+}
+
+.container{
+    width: 1300px;
+    margin: 40px;
+}
+
+.card-grey{
+    background-color: grey;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    margin: 20px 0px;
+    text-align:center;
+}
+
+.img-profile{
+    border-radius: 50%;
+}
+
+.btn-red{
+    background-color: red;
+    color: black;
+    padding: 15px 20px;
+    border radius: 20px;
+}
+
+.list-inline li{
+    padding: 10px;
+    display: inline;
+}
